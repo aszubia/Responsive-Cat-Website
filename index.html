@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!-- Boxicons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <title>Responsive Kitty Website</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header" id="header">
+            <!-- Navigation Bar -->
+            <nav class="nav container">
+                <!-- Logo -->
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    Kitty.com
+                </a>
+
+                <!-- Menu -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <!-- About -->
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link active-link">About</a>
+                        </li>
+
+                        <!-- Gallery -->
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link active-link">Gallery</a>
+                        </li>
+
+                        <!-- Breed -->
+                        <li class="nav__item">
+                            <a href="#breed" class="nav__link active-link">Breeds</a>
+                        </li>
+
+                        <!-- Support -->
+                        <a href="#" class="button button--ghost">Support</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <!-- <img src="assets/img/nav-img.png" alt="" class="nav__img"> -->
+                </div>
+
+                <!-- Toggle Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!-- Home Section -->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Home Slider 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/image1.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Kittens</h4>
+                                        <span class="home__details-subtitle">Kittens are cute</span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 Cute Kittens</h3>
+                                    <h1 class="home__title">Meow Meow<br>Meow</h1>
+                                    <p class="home__description">I am a cat and I am cute.</p>
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Meow Now</a>
+                                        <a href="#" class="button--link button--flex">Cat Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Home Slider 2 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/image2.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Jump</h4>
+                                        <span class="home__details-subtitle">Kittens are Jumping</span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#2 Jumping Kittens</h3>
+                                    <h1 class="home__title">Jump Jump<br>Jump</h1>
+                                    <p class="home__description">I am a cat and I can jump.</p>
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Jump Now</a>
+                                        <a href="#" class="button--link button--flex">Cat Jump<i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Home Slider 3 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/image3.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Dignity</h4>
+                                        <span class="home__details-subtitle">Standing PURRoud</span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#3 Dignified Kitty</h3>
+                                    <h1 class="home__title">Cats with<br>Purrpaws</h1>
+                                    <p class="home__description"> Cat maintains its dignity with a nonchalant flick of the tail. </p>
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Dignify Now</a>
+                                        <a href="#" class="button--link button--flex">Dignify Kitty<i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!-- Category Section -->
+            <section class="section category">
+                <h2 class="section__title">Favorite Cat Moments</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/NEZUCAT.png" alt="" class="category__img">
+                        <h3 class="category__title">NezuCAT</h3>
+                        <p class="category__description">Cat cosplaying as Nezuko of Demon Slayer</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/Hugging Kitten.png" alt="" class="category__img">
+                        <h3 class="category__title">Hugging Kitten</h3>
+                        <p class="category__description">How cute is this kitten, that is hugging a bottle</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/Mingming.png" alt="" class="category__img">
+                        <h3 class="category__title">Mingming Legends</h3>
+                        <p class="category__description">Mingming is a legend of cats</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">About Kitties</h2>
+                        <p class="about__description">
+                            Kittens are a whirlwind of fluffy fur and boundless curiosity. Their enormous eyes, wide with wonder, take in everything around them. Playful pounces erupt in a flurry of tiny paws and razor-sharp claws as they chase dust motes and feathered toys with unbridled enthusiasm.
+                        </p>
+                        <a href="#" class="button">Know More</a>
+                    </div>
+                    <img src="assets/img/about.png" alt="" class="about__img">
+                </div>
+            </section> 
+
+            <!-- Gallery Section -->
+            <section class="section gallery" id="gallery">
+                <h2 class="section__title">Gallery</h2>
+
+                <div class="gallery__container container grid">
+                    <div class="gallery__content">
+                        <img src="assets/img/product1.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">Dry Food</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$10.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery__content">
+                        <img src="assets/img/product2.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">Wet Food</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$8.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery__content">
+                        <img src="assets/img/product3.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">Treats</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$1.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery__content">
+                        <img src="assets/img/product4.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">Cat Litters</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$7.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery__content">
+                        <img src="assets/img/product5.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">Litter Locker</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$10.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery__content">
+                        <img src="assets/img/product6.png" alt="" class="gallery__img">
+                        <h3 class="gallery__title">5 in 1 Wet Wipes</h3>
+                        <span class="gallery__subtitle">Kit Cat</span>
+                        <span class="gallery__price">$2.99</span>
+                        <button class="button gallery__button">
+                            <i class='bx bx-cart-alt gallery__icon'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Breeds Section -->
+
+            <!-- Footer Section -->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            Kitty.com
+                        </a>
+
+                        <p class="footer__description">Enjoy the kitty day <br> of your life.</p>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Services</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Discounts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Shipping mode</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Company</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Our mision</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="footer__copy">&#169; Zubits. All rights reserved</span> 
+            </footer>
+        </main>
+                <!--=============== SCROLL UP ===============-->
+                <a href="#" class="scrollup" id="scroll-up">
+                    <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+                </a>
+                
+                <!--=============== SCROLL REVEAL ===============-->
+                <script src="assets/js/scrollreveal.min.js"></script>
+        
+                <!--=============== SWIPER JS ===============-->
+                <script src="assets/js/swiper-bundle.min.js"></script>
+                
+                <!--=============== MAIN JS ===============-->
+                <script src="assets/js/main.js"></script>
+    </body>
+</html>
